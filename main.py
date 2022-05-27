@@ -228,12 +228,6 @@ def run_on_model(path):
     eng.test_bands(path, nargout=0)
     eng.quit()
 
-
-for i in range(5723, 6461):
-    TwoDMatpedia(i)
-
-
-
 #Added a basic GUI for ease of use
 
 win = Tk()

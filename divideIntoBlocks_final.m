@@ -1,4 +1,4 @@
-# Function to divide a band structure image, extended into a 1D vector, into segments with width Block_column and height Block_row
+% Function to divide a band structure image, extended into a 1D vector, into segments with width Block_column and height Block_row
 
 function [dividedImage,Lcolumn,Lrow] = divideIntoBlocks_final(InputImage,Block_row,Block_column)
 img1 = InputImage;
